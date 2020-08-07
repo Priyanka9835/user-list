@@ -1,0 +1,17 @@
+.card  img{
+    height: 300px;
+}
+
+.card {
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.col-lg-10 {
+    margin: 0 auto;
+}
+
+.user-details-column .card{
+   width: 100%;
+}
