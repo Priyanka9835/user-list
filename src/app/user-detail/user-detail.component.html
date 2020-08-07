@@ -1,0 +1,98 @@
+<div class="container-fluid">
+        <div class="row mt-3">
+               <div class="col-lg-10">
+                    <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                              <li class="breadcrumb-item"><a routerLink="/users">Users</a></li>
+                              <li class="breadcrumb-item active"><a >User</a></li>
+                            </ol>
+                   </nav>
+
+                   <div class="card mb-4">
+                        <div class="card-body">
+                                <p class="card-text">
+                                    <b>Id: </b> {{userDetails.id}}
+                                </p>
+                                <p class="card-text">
+                                    <b> Node id: </b> {{userDetails.node_id}}
+                                 </p>
+                                 <p class="card-text">
+                                       <b> Avatar Url: </b> {{userDetails.avatar_url}}
+                                     </p>
+                                     <p class="card-text">
+                                          <b>Followers Url: </b>  {{userDetails.followers_url}}
+                                         </p>
+                                         <p class="card-text">
+                                            <b>  Gists Url: </b> {{userDetails.gists_url}}
+                                             </p>
+                                             <p class="card-text">
+                                                  <b>Starred Url: </b>   {{userDetails.starred_url}}
+                                                 </p>
+                                                 <p class="card-text">
+                                                      <b>Subscriptions Url: </b>   {{userDetails.subscriptions_url}}
+                                                     </p>
+                                                     <p class="card-text">
+                                                          <b>Organisations Url: </b>   {{userDetails.organizations_url}}
+                                                         </p>
+                                                         <p class="card-text">
+                                                              <b>Repos Url: </b>   {{userDetails.repos_url}}
+                                                             </p>
+                                                             <p class="card-text">
+                                                                   <b>Events Url: </b>  {{userDetails.events_url}}
+                                                                 </p>
+                                                                 <p class="card-text">
+                                                                       <b>Received Events Url: </b>  {{userDetails.received_events_url}}
+                                                                     </p>
+                                                                     <p class="card-text">
+                                                                           <b>Type: </b>  {{userDetails.type}}
+                                                                         </p>
+                                                                         <p class="card-text">
+                                                                               <b>Site Admin: </b>  {{userDetails.site_admin}}
+                                                                             </p>
+                                                                             <p class="card-text">
+                                                                                   <b>Name: </b>  {{userDetails.name}}
+                                                                                 </p>
+                                                                                 <p class="card-text">
+                                                                                       <b>Company: </b>  {{userDetails.company}}
+                                                                                     </p>
+                                                                                     <p class="card-text">
+                                                                                            <b>Blog</b> {{userDetails.blog}}
+                                                                                         </p>
+                                                                                         <p class="card-text">
+                                                                                               <b>Location: </b>  {{userDetails.location}}
+                                                                                             </p>
+                                                                                             <p class="card-text">
+                                                                                                  <b>Email: </b>  {{userDetails.email}}
+                                                                                                </p>
+                                                                                                <p class="card-text">
+                                                                                                       <b>Hireable: </b> {{userDetails.hireable}}
+                                                                                                    </p>
+                                                                                                    <p class="card-text">
+                                                                                                          <b>Bio: </b>  {{userDetails.bio}}
+                                                                                                        </p>
+                                                                                                            <p class="card-text">
+                                                                                                                 <b>Twitter Username: </b>   {{userDetails.twitter_username}}
+                                                                                                                </p>
+                                                                                                                <p class="card-text">
+                                                                                                                      <b>Public Repos: </b>  {{userDetails.public_repos}}
+                                                                                                                    </p>
+                                                                                                                    <p class="card-text">
+                                                                                                                          <b>Public Gists: </b>  {{userDetails.public_gists}}
+                                                                                                                        </p>
+                                                                                                                        <p class="card-text">
+                                                                                                                              <b>Followers: </b>  {{userDetails.followers}}
+                                                                                                                            </p>
+                                                                                                                            <p class="card-text">
+                                                                                                                                   <b>Following: </b> {{userDetails.following}}
+                                                                                                                                </p>
+                                                                                                                                <p class="card-text">
+                                                                                                                                      <b>Cretaed At: </b>   {{userDetails.created_at | date}}
+                                                                                                                                    </p>
+                                                                                                                                    <p class="card-text">
+                                                                                                                                           <b>Updated At: </b> {{userDetails.updated_at | date}}
+                                                                                                                                        </p>
+         
+                            </div>
+                   </div>
+        </div>
+</div>
